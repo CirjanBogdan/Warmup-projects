@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        function getRandomInt(buttonNum) {
+            var x = Math.floor(Math.random() * 3);
+            if (x === buttonNum) {
+                alert("Castigator");
+            } else {
+                alert("Necastigator")
+            }
+        }
+    </script>
+    <input id="clickMe1" type="button" value="Button 1" onclick="getRandomInt(0)" />
+    <input id="clickMe2" type="button" value="Button 2" onclick="getRandomInt(1)" />
+    <input id="clickMe3" type="button" value="Button 3" onclick="getRandomInt(2)" />
+</body>
+</html>
